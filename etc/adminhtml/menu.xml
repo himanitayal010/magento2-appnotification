@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Magneto_AppNotification::appnotification" title="Magneto" module="Magneto_AppNotification" sortOrder="50" resource="Magento_Backend::content"/>
+        <add id="Magneto_AppNotification::test" title="App Notification" module="Magneto_AppNotification" sortOrder="10" parent="Magneto_AppNotification::appnotification" action="magneto_appnotification/items/" resource="Magento_Backend::content"/>
+    </menu>
+</config>

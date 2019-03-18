@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <appnotification>
+            <general>
+                <server_key>AAAAHP7-WOo:APA91bE-8UF0Q2HHcVNok7syzKrKRuC4lA_Q5St-KR3dqgGtWFmu4WNtY-X6Pm0topyHlIH291jktxSWyNRaZw1b-zLV2yW9zb_MR-vc9CbA9uzMy3LxDDpBU_mGXaL9Iq7EeTaQlFN8</server_key>
+            </general>
+        </appnotification>
+    </default>
+</config>

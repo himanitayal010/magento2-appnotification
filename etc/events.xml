@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+	<!-- App Notification After Save Notification -->
+    <event name="notification_observer_name">
+        <observer name="notification_observer_name" instance="Magneto\AppNotification\Observer\NotificationObserverMethod" />
+    </event>
+    <!-- After Change Order Status -->
+    <event name='sales_order_save_after'>
+        <observer name='sales_order_save_after' instance='Magneto\AppNotification\Observer\SalesOrderAfterSave'/>
+    </event>
+</config>
